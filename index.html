@@ -3,8 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>Cam Catering</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssnormalize/cssnormalize-min.css">
   </head>
-  <body>
 
+  <body>
+      <header class="navWrapper">
+          <img src="/img/logo.png" id="logo-img">
+
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+          <nav id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Contact US</a>
+            <a href="#">Quote</a>
+            <a href="#">Gallery</a>
+          </nav>
+
+      </header>
+  <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
